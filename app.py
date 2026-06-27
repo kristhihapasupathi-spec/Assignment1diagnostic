@@ -132,7 +132,7 @@ st.sidebar.caption(
 )
 
 # ============================================================ SECTION 1
-if section.startswith("1"):
+if section.startswith("1."):
     st.header("Overview & Descriptive Analysis")
 
     c1, c2, c3, c4, c5 = st.columns(5)
